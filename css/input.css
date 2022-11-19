@@ -1,0 +1,40 @@
+body {
+background-color: #282A3A;
+font-style: normal;
+margin: auto;
+font-family: 'Trebuchet MS';
+font-style: normal;
+}
+
+
+.btn {
+ margin-right: 1%;
+ padding: 1%;
+ position: relative; 
+    
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #C69749
+    ;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
