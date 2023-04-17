@@ -6,6 +6,13 @@ font-family: 'Trebuchet MS';
 font-style: normal;
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%; }
+
 
 .btn {
  margin-right: 1%;
@@ -47,4 +54,20 @@ font-size: small;
 
 img {
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+div {
+  display: block;
+}
+
+.hero{
+text-align: center;
+padding-top: 60px;
+position: relative;
+min-height: 400px
+
+
+};
