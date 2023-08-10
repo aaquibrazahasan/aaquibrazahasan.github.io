@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipedrive Deal Opening Tool</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    
+        #variableForm {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        label, input, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="variableForm">
+    <label for="variable">Enter Pipedrive Deal ID :</label>
+    <input type="text" id="variableInput" name="variable" required>
+    <button type="submit">Go to Target Site</button>
+</form>
+
+<script>
+    document.getElementById('variableForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Get the user input
+        const variable = document.getElementById('variableInput').value;
+
+        // Construct the target URL based on the variable
+        const targetURL = `https://quantiphi.pipedrive.com/deal/${variable}`;
+        // const targetURL = `https://example.com?variable=${variable}`;    
+
+      
+
+        // Redirect the user
+         window.open(targetURL, '_blank');
+    });
+</script>
+</body>
+</html>
