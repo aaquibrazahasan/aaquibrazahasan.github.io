@@ -138,3 +138,30 @@ table {
 
 }
 
+/* These setting are for Pipedrive */
+
+
+#variableForm {
+  text-align: center;
+  padding: 50px;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  background-color: #cfbd1e;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label, input, button {
+
+  margin-bottom: 10px;
+  font-size: 05ex;
+
+  
+}
+
+   /* Custom CSS */
+   .custom-card {
+    width: calc(33.33% - 2rem); /* 1/3 of the page width with some margin */
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: top;
+  }
